@@ -1,0 +1,38 @@
+/* MonthlyReportTable.css */
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .report-table th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .report-table th,
+  .report-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 15px;
+  }
+
+  .report-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .report-table tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  .highlighted-row {
+    background-color: red;
+  }
